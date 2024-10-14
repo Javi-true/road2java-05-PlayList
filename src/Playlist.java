@@ -46,7 +46,11 @@ public class Playlist {
         System.out.println(SongA);
         System.out.println(SongB);
 
+        String tempA = "SongA";
 
-
+        desertIslandPlaylist.set(1,"Alex - la diez" );
+        System.out.println(desertIslandPlaylist);
+        desertIslandPlaylist.set(4,tempA);
+        System.out.println(desertIslandPlaylist);
     }
 }
