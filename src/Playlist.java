@@ -23,5 +23,30 @@ public class Playlist {
         desertIslandPlaylist.addAll(Arrays.asList(favoriteSongs));
         System.out.println(desertIslandPlaylist);
         System.out.println(desertIslandPlaylist.size());
+
+        desertIslandPlaylist.remove(5);
+        desertIslandPlaylist.remove(6);
+        desertIslandPlaylist.remove(7);
+        desertIslandPlaylist.remove(8);
+        desertIslandPlaylist.remove(9);
+        desertIslandPlaylist.remove(0);
+        desertIslandPlaylist.remove(1);
+        desertIslandPlaylist.remove(2);
+        desertIslandPlaylist.remove(3);
+        desertIslandPlaylist.remove(4);
+
+
+
+        System.out.println(desertIslandPlaylist.size());
+        System.out.println(desertIslandPlaylist);
+
+        //11.
+        int SongA = desertIslandPlaylist.indexOf("Nina - el gas");
+        int SongB = desertIslandPlaylist.indexOf("Alex - la diez");
+        System.out.println(SongA);
+        System.out.println(SongB);
+
+
+
     }
 }
